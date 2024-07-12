@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+}
+.general{
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#fondo{
+    position: absolute;
+    display: flex;
+    width: 99vw;
+    height: 49vw;
+}
+
+.cuadroBlanco{
+    position: relative;
+    top: 8vw;
+    left: 30vw;
+    background-color: white;
+    width: 40vw;
+    height: 35vw;
+    border-radius: 5vw;
+}
+
+#kario{
+    position: relative;
+    top: 3vw;
+    left: 18vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+#Bienvenido{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    width: 27vw;
+    top: 3vw;
+    left: 7vw;
+    font-size: 2vw
+}
+
+#porfa{
+    position: relative;
+    top: 2vw;
+    left: 8vw;
+    font-size: 0.8vw;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#usuario{
+    position: relative;
+    top: 2vw;
+    left: 4vw;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input1 {
+    position: relative;
+    border-radius: 1vw;
+    border-color: rgb(160, 160, 160);
+    width: 31vw;
+    height: 1.8vw;
+    left: 4vw;
+    top: 1vw;
+    font-size: 1vw;
+}
+
+#Contraseña{
+    position: relative;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 4vw;
+    top: 1vw;
+}
+
+#input2{
+    position: relative;
+    font-size: 1vw;
+    border-radius: 1vw;
+    left: 4vw;
+    width: 31vw;
+    height: 1.8vw;
+    border-color: rgb(160, 160, 160);
+}
+
+.boton{
+    position: relative;
+    text-align: center;
+    background-color: #ff6f2c;
+    width: 10vw;
+    height: 2vw;
+    left: 15vw;
+    border-radius: 5vw;
+}
+
+#texti{
+    font-size: 1vw;
+    text-decoration: none;
+    position: relative;
+    top: 0.5vw;
+    color: white;
+}
+
+#ultimo{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 0.7vw;
+    left: 5vw;
+    top: 1vw;
+}

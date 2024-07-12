@@ -1,0 +1,25 @@
+body{
+    background-image: url(/images/pexels-pixabay-159400.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+.Caja{
+    background-color: white;
+    width: 58.5em;
+    height: 34.313em;
+    border-radius: 4em;
+    text-align: center;
+}
+.Contenido{
+    margin-top: 4em;
+}
+.Caja img{
+    width: 6em;
+}
