@@ -1,4 +1,25 @@
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+.Agg, .Refres, .Delete, .Report, .Help{
+    display: flex;
+    align-items: center;
+}
+.Perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Perfil i{
+    margin: 0em 1.5em 0em 0.2em;
+}
+.Line{
+    height: 0.2em;
+    background-color: rgb(68, 68, 68);
 }

@@ -1,0 +1,386 @@
+.general{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+    height: 5vw;
+}
+
+#casa{
+    display: flex;
+    position: relative;
+    top: 1vw;
+    left: 1vw;
+    display: flex;
+    width: 2vw;
+    height: 2vw;
+}
+
+#inicio{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    top: -1.5vw;
+    left: 4vw;
+    font-size: 1vw;
+}
+
+#recarga{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    left: 16vw;
+    top: -4.6vw;
+    display: flex;
+}
+
+#Refrescar{
+    position: relative;
+    font-size: 1vw;
+    top: -7.4vw;
+    left: 20vw;
+}
+
+#basura{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    top: -9.8vw;
+    left: 30vw;
+    display: flex;
+}
+
+#eliminar{
+    position: relative;
+    font-size: 1vw;
+    top: -12.5vw;
+    left: 35vw;
+}
+
+#Logo{
+    position: relative;
+    top: -15vw;
+    left: 48vw;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+}
+
+#report{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    left: 58vw;
+    top: -17vw;
+    display: flex;
+}
+
+#Repotar{
+    position: relative;
+    top: -19.5vw;
+    left: 63.5vw;
+    font-size: 1vw;
+}
+
+#pregunta{
+    position: relative;
+    top: -22vw;
+    left: 75vw;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+}
+
+#Ayuda{
+    position: relative;
+    left: 80vw;
+    top: -24.7vw;
+    font-size: 1vw;
+}
+
+#campana{
+    position: relative;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: -28.5vw;
+    left: 91vw;
+    display: flex;
+}
+
+#tuerca{
+    position: relative;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: -27vw;
+    left: 88vw;
+    display: flex;
+}
+
+#pp{
+    position: relative;
+    top: -30.4vw;
+    left: 95vw;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+}
+
+.principal{
+    position: absolute;
+    display: flex;
+    top: 5vw;
+    left: -18vw;
+    height: 50vw;
+}
+
+#añadirIndi{
+    position: relative;
+    width: 15vw;
+    left: 61.8vw;
+    font-size: 1.5vw;
+}
+
+#AquiPuedes{
+    position: relative;
+    width: 17vw;
+    top: 4vw;
+    left: 47vw;
+    font-size: 1vw;
+}
+
+.primerCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 9vw;
+    left: -8vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#nombreIndi{
+    font-size: 1.4vw;
+}
+
+#input1{
+    border-radius: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border: 0.1vw gray solid;
+}
+
+.segundoCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 9vw;
+    left: -5vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#DescriIndi{
+    font-size: 1.4vw;
+}
+
+#input2{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border: 0.1vw gray solid;
+}
+
+.tercerCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 9vw;
+    left: -2vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#categoria{
+    font-size: 1.4vw;
+}
+
+#input3{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border:0.1vw gray solid;
+}
+
+.cuartoCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 9vw;
+    left: 1vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#fechaIni{
+    font-size: 1.4vw;
+}
+
+#input4{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border:0.1vw gray solid;
+}
+
+.quintoCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 23vw;
+    left: -89vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#fechaTermi{
+    font-size: 1.4vw;
+}
+
+#input5{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border:0.1vw gray solid;
+}
+
+.sextoCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 23vw;
+    left: -85.5vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#formula{
+    font-size: 1.4vw;
+}
+
+#input6{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border:0.1vw gray solid;
+}
+
+.septimoCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 23vw;
+    left: -82.5vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#frecuencia{
+    font-size: 1.4vw;
+}
+
+#input7{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border:0.1vw gray solid;
+}
+
+.octavoCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 23vw;
+    left: -79.5vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#cumplimiento{
+    font-size: 1.4vw;
+}
+
+#input8{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border:0.1vw gray solid;
+}
+
+.novenoCuadro{
+    border: 0.1vw solid orange;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    top: 38vw;
+    left: -135vw;
+    width: 20vw;
+    height: 11vw;
+    background-color: rgb(225, 225, 225);
+}
+
+#area{
+    font-size: 1.4vw;
+}
+
+#input9{
+    border-radius: 1vw;
+    font-size: 1vw;
+    width: 14vw;
+    height: 1.5vw;
+    border:0.1vw gray solid;
+}
+
+.boton{
+    position: relative;
+    text-align: center;
+    top: 53vw;
+    left: -152vw;
+    width: 14vw;
+    height: 2.5vw;
+    border-radius: 1.5vw;
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+}
+
+#botonci{
+    position: relative;
+    text-decoration: none;
+    top: -0.8vw;
+    color: white;
+    font-size: 1.3vw;
+}
