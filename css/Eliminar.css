@@ -1,0 +1,78 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.Agg, .Refres, .Delete, .Report, .Help{
+    display: flex;
+    align-items: center;
+}
+.Perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+.Line{
+    background-color: gray;
+    height: 0.1em;
+}
+.Text{
+    text-align: center;
+}
+.Content{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid gray;
+    border-radius: 2em;
+    width: 50%;
+}
+.Indicador{
+    text-align: start;
+    line-height: 2.8em;
+}
+.Categoria{
+    text-align: center;
+    line-height: 2.8em;
+}
+.Area{
+    text-align: center;
+    line-height: 2.8em;
+}
+.Eliminar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Eliminar img{
+    margin-top: 1em;
+}
+.Btn{
+    text-align: center;
+}
+.Btn a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 1em 3em;
+    border-radius: 2em;
+}
+@media screen and (max-width:1100px) {
+    .Categoria{
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .Content{
+        width: 80%;
+    }
+    .Area{
+        display: none;
+    }
+    header a{
+        display: none;
+    }
+}

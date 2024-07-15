@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+.Agg, .Refres, .Delete, .Report, .Help{
+    display: flex;
+    align-items: center;
+}
+.Perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Line{
+    background-color: gray;
+    height: 0.1em;
+}
+.Text{
+    text-align: center;
+}
+.Inp input{
+    height: 3em;
+    width: 30em;
+}
+.Inp a{
+    background-color: orangered;
+    padding: 0.85em;
+    margin-left: -0.3em;
+    text-decoration: none;
+    color: white;
+}
+.Content{
+    margin-top: 2em;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95%;
+    border: 1px solid gray;
+    border-radius: 2em;
+    padding-bottom: 2em;
+}
+.Content a{
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+}
+
+.Add, .Del, .Retry, .User{
+    margin-top: 2em;
+    width: 20em;
+}
+
+.Btn{
+    margin-top: 4em;
+    text-align: center;
+}
+.Btn a{
+    background-color: orangered;
+    padding: 1em 3em;
+    border-radius: 2em;
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:800px) {
+    header a{
+        display: none;
+    }
+    .Inp a{
+        display: none;
+    }
+}
