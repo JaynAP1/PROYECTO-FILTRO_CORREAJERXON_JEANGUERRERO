@@ -24,6 +24,38 @@ header a{
     background-color: gray;
     height: 0.1em;
 }
+#Pedro{
+    display: none;
+}
+.Logout h4{
+    display: none;
+    padding: 0em 0em 0em 1em;
+}
+.Logout a{
+    display: none;
+}
+
+#Pedro:checked ~ .Logout {
+    height: 10em;
+    border: 1px solid black;
+    border-radius: 2em;
+}
+#Pedro:checked ~ .Logout h4{
+    display: block;
+}
+#Pedro:checked ~ .Logout a{
+    display: block;
+}
+.Logout{
+    transition: all 300ms ease;
+    height: 0em;
+    width: 15em;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 4em;
+    margin-left: -6em;
+}
 .Text{
     text-align: center;
 }

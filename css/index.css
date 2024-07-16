@@ -45,7 +45,7 @@ body{
     background-color: white;
     width: 39em;
     height: 37em;
-    margin-top: 10em;
+    margin-top: 2em;
     animation: Cuadro 6s linear;
 }
 @keyframes Cuadro {
