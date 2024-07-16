@@ -46,6 +46,61 @@ header a{
 .Categoria, .FechaI, .FechaF, .Frecuencia, .Formula, .Cumplimiento, .Area{
     text-align: center;
 }
+.Icons{
+    position: relative;
+    left: 3em;
+    top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.Circle1{
+    fill: none;
+    stroke: red;
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-bottom: -4.2em;
+}
+.Circle2{
+    fill: none;
+    stroke: rgb(35, 255, 72);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-bottom: -4.2em;
+}
+.Circle3{
+    fill: none;
+    stroke: rgb(253, 219, 48);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+}
+.Circulitos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -2em;
+}
+.Circulitos span{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    top:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    font-size: 0.8em;
+}
+.Icons img{
+    margin-top: 2em;
+    margin-bottom: 1.3em;
+}
 .Btn{
     text-align: center;
     margin-bottom: 2em;
@@ -127,9 +182,52 @@ header a{
     .Formula{
         display: none;
     }
+    .FechaI{
+        display: none;
+    }
+    .FechaF{
+        display: none;
+    }
+    .Icons{
+        left: 5em;
+    }
+}
+@media screen and (max-width:1148){
+    .FechaF span{
+        display: none;
+    }
 }
 @media screen and (max-width:800px) {
     header a{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    .Icons{
+        display: none;
+    }
+}
+@media screen and (max-width:636px) {
+    .Encuadre1{
+        top: 15.3em;
+    }
+    .Encuadre2{
+        top: 20.7em;
+    }
+    .Encuadre3{
+        top: 26.2em;
+    }
+    .Encuadre4{
+        top: 31.6em;
+    }
+    .Encuadre5{
+        top: 37em;
+    }
+    .Encuadre6{
+        top: 42.3em;
+    }
+    .Frecuencia{
         display: none;
     }
 }

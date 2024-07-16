@@ -1,113 +1,96 @@
 body{
-    background-color: black;
-}
-.general{
-    position: absolute;
+    background-image: url(../images/pexels-pixabay-159400.png);
     background-repeat: no-repeat;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#fondo{
-    position: absolute;
+.general{
     display: flex;
-    width: 99vw;
-    height: 49vw;
+    justify-content: center;
 }
 
 .cuadroBlanco{
-    position: relative;
-    top: 8vw;
-    left: 30vw;
+    display: flex;
+    text-align: center;
+    margin-top: 5em;
+    border-radius: 2vw;
     background-color: white;
-    width: 40vw;
-    height: 35vw;
-    border-radius: 5vw;
+    width: 39em;
+    height: 37em;
 }
 
-#kario{
-    position: relative;
-    top: 3vw;
-    left: 18vw;
-    width: 5vw;
-    height: 5vw;
+#foto{
+    margin-top: 2em;
+    justify-content: center;
+    width: 5em;
+    height: 5em;
 }
 
 #Bienvenido{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    position: relative;
-    width: 27vw;
-    top: 3vw;
-    left: 7vw;
-    font-size: 2vw
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 1.8em;
 }
 
 #porfa{
-    position: relative;
-    top: 2vw;
-    left: 8vw;
-    font-size: 0.8vw;
-    font-family: Arial, Helvetica, sans-serif
+    text-align: center;
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+
+.recurso1{
+    text-align: left;
+    padding-left: 5em;
 }
 
 #usuario{
-    position: relative;
-    top: 2vw;
-    left: 4vw;
-    font-size: 1.2vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    opacity: 0.6;
 }
 
-#input1 {
-    position: relative;
+#input1{
+    width: 32em;
+    height: 2em;
+    border: rgb(205, 205, 205) solid 1.7px;
     border-radius: 1vw;
-    border-color: rgb(160, 160, 160);
-    width: 31vw;
-    height: 1.8vw;
-    left: 4vw;
-    top: 1vw;
-    font-size: 1vw;
+}
+
+.recurso2{
+    text-align: left;
+    padding-left: 5em;
 }
 
 #Contraseña{
-    position: relative;
-    font-size: 1.2vw;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 4vw;
-    top: 1vw;
+    font-size: 1.2em;
+    opacity: 0.6;
 }
 
 #input2{
-    position: relative;
-    font-size: 1vw;
+    width: 32em;
+    height: 2em;
+    border: rgb(205, 205, 205) solid 1.7px;
     border-radius: 1vw;
-    left: 4vw;
-    width: 31vw;
-    height: 1.8vw;
-    border-color: rgb(160, 160, 160);
 }
 
 .boton{
-    position: relative;
-    text-align: center;
-    background-color: #ff6f2c;
-    width: 10vw;
-    height: 2vw;
-    left: 15vw;
-    border-radius: 5vw;
+    margin-top: 2em;
 }
 
-#texti{
-    font-size: 1vw;
+#ingresa{
     text-decoration: none;
-    position: relative;
-    top: 0.5vw;
     color: white;
+    background-color: #ff6f2c;
+    padding:0.8em 4em;
+    border-radius: 2vw;
 }
 
-#ultimo{
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    font-size: 0.7vw;
-    left: 5vw;
-    top: 1vw;
+#tienesPro{
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+    margin-top: 4em;
+    font-size: 0.6em;
+    opacity: 0.6;
 }
