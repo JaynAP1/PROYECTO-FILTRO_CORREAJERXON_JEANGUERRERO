@@ -33,26 +33,28 @@ header a{
     border: rgb(224, 224, 224) solid 2px;
     border-radius: 1em;
     width: 50%;
-    height: 32m;
+    height: 32em;
 }
 .Indicador{
     text-align: start;
-    line-height: 2.8em;
+    line-height: 3.5em;
 }
 .Categoria{
     text-align: center;
-    line-height: 2.8em;
+    line-height: 3.5em;
 }
 .Area{
     text-align: center;
-    line-height: 2.8em;
+    line-height: 3.5em;
 }
 .Eliminar{
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 3.5em;
 }
 .Eliminar img{
+    margin-bottom: 0.4em;
     margin-top: 1em;
 }
 .Btn{
@@ -64,6 +66,10 @@ header a{
     background-color: #ff6f2c;
     padding: 1em 3em;
     border-radius: 2em;
+}
+
+#eli1{
+    font-size: 1.3em;
 }
 
 @media screen and (max-width:1100px) {
@@ -81,4 +87,4 @@ header a{
     header a{
         display: none;
     }
-}
+} 

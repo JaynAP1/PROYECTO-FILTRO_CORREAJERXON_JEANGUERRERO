@@ -38,8 +38,8 @@ header a{
     width: 30em;
 }
 .Inp a{
-    background-color: orangered;
-    padding: 0.85em;
+    background-color: #ff6f2c;
+    padding: 0.7em;
     margin-left: -0.3em;
     text-decoration: none;
     color: white;
@@ -74,8 +74,8 @@ header a{
     text-align: center;
 }
 .Btn a{
-    background-color: orangered;
-    padding: 1em 3em;
+    background-color: #ff6f2c;
+    padding: 0.7em 3.5em;
     border-radius: 2em;
     text-decoration: none;
     color: white;

@@ -3,7 +3,6 @@ body{
 }
 
 .Entradas{
-    padding-left: 10em;
     width: 85vw;
 }
 
@@ -44,6 +43,7 @@ header a{
     border-radius: 1em;
     border: 1px solid #c7c7c7;
     margin-bottom: 2em;
+    margin: 1em;
 }
 .E1 input ,.E2 input, .E3 input, .E4 input, .E5 input, .E6 input, .E7 input, .E8 input, .E9 input{
     border: none;
