@@ -1,3 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Entradas{
+    padding-left: 10em;
+    width: 100em;
+}
+
 header{
     display: flex;
     justify-content:space-around
@@ -11,6 +20,15 @@ header a{
     color: black;
     margin-left: 1em;
 }
+
+#lIndicador{
+    font-size: 1.5em;
+}
+
+.lele{
+    font-size: 1.3em;
+}
+
 .Linea{
     background-color: gray;
     height: 0.1em;
@@ -19,16 +37,17 @@ header a{
     text-align: center;
 }
 .E1, .E2, .E3, .E4, .E5, .E6, .E7, .E8, .E9{
-    background-color: rgb(187, 187, 187);
-    width: 17em;
-    height: 8em;
+    background-color: rgb(216, 216, 216);
+    width: 20em;
+    height: 10em;
     text-align: center;
     border-radius: 1em;
-    border: 1px solid orangered;
+    border: 1px solid #c7c7c7;
     margin-bottom: 2em;
 }
 .E1 input ,.E2 input, .E3 input, .E4 input, .E5 input, .E6 input, .E7 input, .E8 input, .E9 input{
     border: none;
+    height: 1.7em;
     border-radius: 1em;
 }
 .Entradas{
@@ -37,12 +56,13 @@ header a{
     justify-content: space-around;
 }
 .Btn{
+    margin-top: 2em;
     text-align: center;
 }
 .Btn a{
     text-decoration: none;
     color: white;
-    background-color: orangered;
-    padding: 1em 3em;
+    background-color: #ff6f2c;
+    padding: 1em 3.5em;
     border-radius: 2em;
 }
