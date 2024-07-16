@@ -30,10 +30,11 @@ header a{
 .Content{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 4em;
     border: rgb(224, 224, 224) solid 2px;
     border-radius: 1em;
     width: 50%;
-    height: 32em;
+    height: 30em;
 }
 .Indicador{
     text-align: start;
@@ -54,7 +55,7 @@ header a{
     line-height: 3.5em;
 }
 .Eliminar img{
-    margin-bottom: 0.4em;
+    margin-bottom: 0.7em;
     margin-top: 1em;
 }
 .Btn{
@@ -64,12 +65,36 @@ header a{
     text-decoration: none;
     color: white;
     background-color: #ff6f2c;
-    padding: 1em 3em;
+    padding: 0.6em 3.5em;
     border-radius: 2em;
 }
 
 #eli1{
     font-size: 1.3em;
+}
+
+#Aqui{
+    font-size: 1em;
+}
+
+.Content{
+    font-size: 1.2em;
+}
+
+#in1{
+    font-size: 1.5em;
+}
+
+#in2{
+    font-size: 1.5em;
+}
+
+#in3{
+    font-size: 1.5em;
+}
+
+#in4{
+    font-size: 1.5em;
 }
 
 @media screen and (max-width:1100px) {
