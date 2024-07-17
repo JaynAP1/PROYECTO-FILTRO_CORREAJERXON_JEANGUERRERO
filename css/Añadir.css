@@ -14,6 +14,32 @@ header{
     display: flex;
     align-items: center;
 }
+
+.Agg:hover{
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+
+.Refres:hover{
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+
+.Delete:hover{
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+
+.Report:hover{
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+
+.Help:hover{
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+
 header a{
     text-decoration: none;
     color: black;
@@ -100,6 +126,12 @@ header a{
     text-align: center;
     margin-bottom: 4em;
 }
+
+.Btn:hover{
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+
 .Btn a{
     text-decoration: none;
     color: white;
@@ -116,4 +148,4 @@ header a{
     #Res{
         display: none;
     }
-} 
+}  

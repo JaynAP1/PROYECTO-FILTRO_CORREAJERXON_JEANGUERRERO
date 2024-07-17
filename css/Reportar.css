@@ -252,3 +252,19 @@ header a{
         display: none;
     }
 }
+
+@media screen and (max-width:509px) {
+    .cuadro2{
+        width: 29em;
+        height: 34em;
+    }
+
+    #comunicate{
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    #telefono2{
+        padding-left: 1.5em;
+    }
+}
