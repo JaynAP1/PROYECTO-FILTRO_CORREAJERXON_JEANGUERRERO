@@ -268,3 +268,10 @@ header a{
         padding-left: 1.5em;
     }
 }
+
+@media screen and (max-width:430px) {
+    .cuadro2{
+        width: 25.5em;
+    }
+    
+}
