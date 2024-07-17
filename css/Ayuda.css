@@ -82,7 +82,7 @@ header a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 95%;
-    height: 27em;
+
     border: 1px solid gray;
     border-radius: 2em;
     padding-bottom: 2em;
@@ -102,6 +102,7 @@ header a{
 
 .Btn{
     margin-top: 2em;
+    margin-bottom: 4em;
     text-align: center;
 }
 .Btn a{
@@ -148,11 +149,12 @@ header a{
 }
 
 #noso{
+    margin: 4em 0 0 0;
     text-align: center;
     font-size: 1.6em;
 }
 @media screen and (max-width:800px) {
-    header a{
+    #Res{
         display: none;
     }
     .Inp a{
