@@ -207,8 +207,13 @@ header a{
     text-decoration: none;
 }
 
+#casita{
+    width: 2.5em;
+    height: 2.5em;
+}
+
 @media screen and (max-width:800px) {
     #a1 , #a2 , #a3 , #a4 , #a5{
         display: none;
     }
-}
+} 
