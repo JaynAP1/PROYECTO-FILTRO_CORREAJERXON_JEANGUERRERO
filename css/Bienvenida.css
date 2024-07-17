@@ -67,9 +67,10 @@ body{
 }
 .Container4{
     animation: Home 11s linear;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-@keyframes Home {
+@keyframes Hoe {
     0%{visibility: hidden; position: absolute;}
     99%{visibility: hidden; position: absolute;}
     100%{visibility:visible;}
@@ -77,11 +78,11 @@ body{
 @keyframes fondo {
     0%{
         background-image: url(/images/pexels-pixabay-159400.png);
-        background-color: black;
+        background-color: rgb(255, 255, 255);
     }
     99%{
         background-image: url(/images/pexels-pixabay-159400.png);
-        background-color: black;
+        background-color: rgb(255, 255, 255);
     }
 }
 .Caja{
@@ -176,8 +177,9 @@ header a{
 }
 .Icons{
     position: relative;
-    left: 3em;
+    gap: 0.1em;
     top: 1em;
+    left: 12em;
     display: flex;
     flex-direction: column;
 }
@@ -192,7 +194,7 @@ header a{
 }
 .Circle2{
     fill: none;
-    stroke: rgb(35, 255, 72);
+    stroke: rgb(255, 0, 0);
     stroke-width: 5;
     stroke-dasharray: var(--Porcen) 100;
     transform-origin: 50%;
@@ -201,12 +203,39 @@ header a{
 }
 .Circle3{
     fill: none;
-    stroke: rgb(253, 219, 48);
+    stroke: rgb(115, 255, 0);
     stroke-width: 5;
     stroke-dasharray: var(--Porcen) 100;
     transform-origin: 50%;
     transform: rotate(-90deg);
-    margin-top: 0.8em;
+    margin-top: 0.2em;
+}
+.Circle4{
+    fill: none;
+    stroke: rgb(255, 0, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-top: -4em;
+}
+.Circle5{
+    fill: none;
+    stroke: rgb(115, 255, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-top: -4.2em;
+}
+.Circle6{
+    fill: none;
+    stroke: rgb(251, 255, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-top: -4.2em;
 }
 .Circulitos{
     display: flex;
@@ -244,62 +273,70 @@ header a{
 .Encuadre1{
     background-color: transparent;
     border-radius: 2em;
-    width: 83%;
+    width: 90%;
     height: 4em;
     position: absolute;
     border: 2px solid gray;
-    top: 14.3em;
+    top: 15em;
     left: 2em;
 }
 .Encuadre2{
     background-color: transparent;
     border-radius: 2em;
-    width: 83%;
+    width: 90%;
     height: 4em;
     position: absolute;
     border: 2px solid gray;
-    top: 19.7em;
+    top: 20.2em;
     left: 2em;
 }
 .Encuadre3{
     background-color: transparent;
     border-radius: 2em;
-    width: 83%;
+    width: 90%;
     height: 4em;
     position: absolute;
     border: 2px solid gray;
-    top: 25.2em;
+    top: 25.4em;
     left: 2em;
 }
 .Encuadre4{
     background-color: transparent;
     border-radius: 2em;
-    width: 83%;
+    width: 90%;
     height: 4em;
     position: absolute;
     border: 2px solid gray;
-    top: 30.6em;
+    top: 31em;
     left: 2em;
 }
 .Encuadre5{
     background-color: transparent;
     border-radius: 2em;
-    width: 83%;
+    width: 90%;
     height: 4em;
     position: absolute;
     border: 2px solid gray;
-    top: 36em;
+    top: 36.5em;
     left: 2em;
 }
 .Encuadre6{
     background-color: transparent;
     border-radius: 2em;
-    width: 83%;
+    width: 90%;
     height: 4em;
     position: absolute;
     border: 2px solid gray;
-    top: 41.3em;
+    top: 42em;
     left: 2em;
+}
+@media screen and (max-width:1124px) {
+    .FechaI{
+        display: none;
+    }
+    .FechaF{
+        display: none;
+    }
 }
 @media screen and (max-width:970px) {
     .Descripcion{
@@ -311,14 +348,8 @@ header a{
     .Formula{
         display: none;
     }
-    .FechaI{
-        display: none;
-    }
-    .FechaF{
-        display: none;
-    }
     .Icons{
-        left: 5em;
+        left: 9em;
     }
 }
 @media screen and (max-width:1148){
@@ -358,5 +389,25 @@ header a{
     }
     .Frecuencia{
         display: none;
+    }
+}
+@media screen and (max-width:625px){
+    .Encuadre1{
+        top: 16.1em;
+    }
+    .Encuadre2{
+        top: 21.5em;
+    }
+    .Encuadre3{
+        top: 27em;
+    }
+    .Encuadre4{
+        top: 32.4em;
+    }
+    .Encuadre5{
+        top: 37.8em;
+    }
+    .Encuadre6{
+        top: 43.1em;
     }
 }

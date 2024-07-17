@@ -1,0 +1,413 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-repeat: repeat;
+    background-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: fondo 11s linear;
+}
+
+.Containerim{
+    margin: -30em auto;
+    width: 10em;
+    overflow: hidden;
+}
+.Imagen{
+    animation: Login 5s linear 0s;
+    visibility: hidden;
+    position: absolute;
+}
+.Imagen img{
+    width: 10em;
+}
+@keyframes Login {
+    0%{
+        visibility: visible;
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    animation: Caja 10s linear;
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+}
+@keyframes Caja {
+    0%{
+        opacity: 0;
+    }
+    59%{
+        opacity: 0;
+    }
+    60%{
+        position: relative;
+        opacity: 1;
+    }
+    98%{
+        opacity: 1;
+    }
+    99%{
+        position: relative;
+        opacity: 0;
+    }
+}
+.Container4{
+    animation: Home 11s linear;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+@keyframes Hoe {
+    0%{visibility: hidden; position: absolute;}
+    99%{visibility: hidden; position: absolute;}
+    100%{visibility:visible;}
+}
+@keyframes fondo {
+    0%{
+        background-image: url(/images/pexels-pixabay-159400.png);
+        background-color: rgb(255, 255, 255);
+    }
+    99%{
+        background-image: url(/images/pexels-pixabay-159400.png);
+        background-color: rgb(255, 255, 255);
+    }
+}
+.Caja{
+    background-color: white;
+    width: 58.5em;
+    height: 34.313em;
+    border-radius: 4em;
+    text-align: center;
+}
+.Contenido{
+    margin-top: 4em;
+}
+.Caja img{
+    width: 6em;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+.Agg, .Refres, .Delete, .Report, .Help{
+    display: flex;
+    align-items: center;
+}
+.Perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Perfil i{
+    margin: 0em 1.5em 0em 0.2em;
+}
+.Line{
+    height: 0.1em;
+    background-color: rgb(68, 68, 68);
+}
+#Pedro{
+    display: none;
+}
+.Logout h4{
+    display: none;
+    padding: 0em 0em 0em 1em;
+}
+.Logout a{
+    display: none;
+}
+
+#Pedro:checked ~ .Logout {
+    height: 10em;
+    border: 1px solid black;
+    border-radius: 2em;
+}
+#Pedro:checked ~ .Logout h4{
+    display: block;
+}
+#Pedro:checked ~ .Logout a{
+    display: block;
+}
+.Logout{
+    transition: all 300ms ease;
+    height: 0em;
+    width: 15em;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 4em;
+    margin-left: -6em;
+}
+.Text{
+    text-align: center;
+}
+.Container2{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2em;
+}
+.Container2 h4{
+    font-size: 0.9em;
+}
+.Container2 p{
+    font-size: 0.9em;
+    line-height: 6em;
+    color: rgb(54, 54, 54);
+}
+.Categoria, .FechaI, .FechaF, .Frecuencia, .Formula, .Cumplimiento, .Area{
+    text-align: center;
+}
+.Icons{
+    position: relative;
+    gap: 0.1em;
+    top: 1em;
+    left: 12em;
+    display: flex;
+    flex-direction: column;
+}
+.Circle1{
+    fill: none;
+    stroke: red;
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-bottom: -4.5em;
+}
+.Circle2{
+    fill: none;
+    stroke: rgb(255, 0, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-bottom: -4.5em;
+}
+.Circle3{
+    fill: none;
+    stroke: rgb(115, 255, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-top: 0.2em;
+}
+.Circle4{
+    fill: none;
+    stroke: rgb(255, 0, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-top: -4em;
+}
+.Circle5{
+    fill: none;
+    stroke: rgb(115, 255, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-top: -4.2em;
+}
+.Circle6{
+    fill: none;
+    stroke: rgb(251, 255, 0);
+    stroke-width: 5;
+    stroke-dasharray: var(--Porcen) 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+    margin-top: -4.2em;
+}
+.Circulitos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -2em;
+}
+.Circulitos span{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    top:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    font-size: 0.8em;
+}
+.Icons img{
+    margin-top: 2em;
+    margin-bottom: 1.3em;
+}
+.Btn{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.Btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff6f2c;
+    padding: 1em 3em;
+    border-radius: 2em;
+}
+.Encuadre1{
+    background-color: transparent;
+    border-radius: 2em;
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    border: 2px solid gray;
+    top: 15em;
+    left: 2em;
+}
+.Encuadre2{
+    background-color: transparent;
+    border-radius: 2em;
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    border: 2px solid gray;
+    top: 20.2em;
+    left: 2em;
+}
+.Encuadre3{
+    background-color: transparent;
+    border-radius: 2em;
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    border: 2px solid gray;
+    top: 25.4em;
+    left: 2em;
+}
+.Encuadre4{
+    background-color: transparent;
+    border-radius: 2em;
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    border: 2px solid gray;
+    top: 31em;
+    left: 2em;
+}
+.Encuadre5{
+    background-color: transparent;
+    border-radius: 2em;
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    border: 2px solid gray;
+    top: 36.5em;
+    left: 2em;
+}
+.Encuadre6{
+    background-color: transparent;
+    border-radius: 2em;
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    border: 2px solid gray;
+    top: 42em;
+    left: 2em;
+}
+@media screen and (max-width:1124px) {
+    .FechaI{
+        display: none;
+    }
+    .FechaF{
+        display: none;
+    }
+}
+@media screen and (max-width:970px) {
+    .Descripcion{
+        display: none;
+    }
+    .Categoria{
+        display: none;
+    }
+    .Formula{
+        display: none;
+    }
+    .Icons{
+        left: 9em;
+    }
+}
+@media screen and (max-width:1148){
+    .FechaF span{
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    header a{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    .Icons{
+        display: none;
+    }
+}
+@media screen and (max-width:636px) {
+    .Encuadre1{
+        top: 15.3em;
+    }
+    .Encuadre2{
+        top: 20.7em;
+    }
+    .Encuadre3{
+        top: 26.2em;
+    }
+    .Encuadre4{
+        top: 31.6em;
+    }
+    .Encuadre5{
+        top: 37em;
+    }
+    .Encuadre6{
+        top: 42.3em;
+    }
+    .Frecuencia{
+        display: none;
+    }
+}
+@media screen and (max-width:625px){
+    .Encuadre1{
+        top: 16.1em;
+    }
+    .Encuadre2{
+        top: 21.5em;
+    }
+    .Encuadre3{
+        top: 27em;
+    }
+    .Encuadre4{
+        top: 32.4em;
+    }
+    .Encuadre5{
+        top: 37.8em;
+    }
+    .Encuadre6{
+        top: 43.1em;
+    }
+}
