@@ -5,6 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .ContainerP{
+    margin-top: 4em;
     overflow: hidden;
 }
 .Container{
@@ -39,14 +40,15 @@ body{
 }
 
 .cuadroBlanco{
-    display: flex;
-    text-align: center;
     border-radius: 2em;
     background-color: white;
-    width: 39em;
-    height: 37em;
+    width: 40em;
     margin-top: 2em;
     animation: Cuadro 6s linear;
+}
+.hola{
+    display: flex;
+    flex-direction: column;
 }
 @keyframes Cuadro {
     0%{
@@ -61,20 +63,17 @@ body{
 }
 #foto{
     margin-top: 2em;
-    justify-content: center;
     width: 5em;
     height: 5em;
 }
 
 #Bienvenido{
-    text-align: center;
     padding-left: 3em;
     padding-right: 3em;
     font-size: 1.8em;
 }
 
 #porfa{
-    text-align: center;
     font-size: 0.8em;
     opacity: 0.7;
 }
@@ -93,7 +92,7 @@ body{
     width: 32em;
     height: 3em;
     border: rgb(205, 205, 205) solid 1.7px;
-    border-radius: 1vw;
+    border-radius: 1em;
 }
 
 .recurso2{
@@ -110,7 +109,7 @@ body{
     width: 32em;
     height: 3em;
     border: rgb(205, 205, 205) solid 1.7px;
-    border-radius: 1vw;
+    border-radius: 1em;
 }
 
 .boton{
@@ -122,7 +121,7 @@ body{
     color: white;
     background-color: #ff6f2c;
     padding:0.8em 4em;
-    border-radius: 2vw;
+    border-radius: 2em;
 }
 
 #tienesPro{
@@ -132,4 +131,22 @@ body{
     margin-top: 4em;
     font-size: 0.6em;
     opacity: 0.6;
+}
+@media screen and (max-width:800px) {
+    .cuadroBlanco{
+        width: 80%;
+        margin-bottom: 2em;
+    }
+    .recurso1{
+        padding-left: 2em;
+    }
+    #input1{
+        width: 90%;
+    }
+    .recurso2{
+        padding-left: 2em;
+    }
+    #input2{
+        width: 90%;
+    }
 }
