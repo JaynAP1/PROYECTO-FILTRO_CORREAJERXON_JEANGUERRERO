@@ -203,3 +203,9 @@ header a{
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width:800px) {
+    #a1 , #a2 , #a3 , #a4 , #a5{
+        display: none;
+    }
+}
