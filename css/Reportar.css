@@ -81,6 +81,7 @@ header a{
     width: 36em;
     height: 32em;
     margin-bottom: 3em;
+    padding-bottom: 3em;   
 }
 
 #input1 {
@@ -106,7 +107,7 @@ header a{
 
 .boton1{
     margin-top: 3em;
-    border-radius: 2vw;
+    border-radius: 2em;
 }
 
 #vinculo{
@@ -130,7 +131,8 @@ header a{
     border: rgb(197, 197, 197) solid 1px;
     border-radius: 1em;
     width: 36em;
-    height: 32em;   
+    height: 32em;
+    padding-bottom: 3em;   
 }
 
 #comunicate{
@@ -193,6 +195,7 @@ header a{
 .boton2{
     margin-top: 3em;
     border-radius: 2vw;
+    margin-bottom: 4em;
 }
 
 #vinculo2{
