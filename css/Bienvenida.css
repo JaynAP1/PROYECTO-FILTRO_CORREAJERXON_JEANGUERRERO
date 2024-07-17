@@ -67,8 +67,6 @@ body{
 }
 .Container4{
     animation: Home 11s linear;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 @keyframes Home {
     0%{visibility: hidden; position: absolute;}
@@ -110,6 +108,22 @@ header a{
 .Agg, .Refres, .Delete, .Report, .Help{
     display: flex;
     align-items: center;
+    transition: all 300ms ease;
+}
+.Agg:hover{
+    transform: scale(1.1);
+}
+.Refres:hover{
+    transform: scale(1.1);
+}
+.Delete:hover{
+    transform: scale(1.1);
+}
+.Report:hover{
+    transform: scale(1.1);
+}
+.Help:hover{
+    transform: scale(1.1);
 }
 .Perfil{
     display: flex;
