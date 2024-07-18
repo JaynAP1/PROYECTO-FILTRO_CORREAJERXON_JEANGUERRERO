@@ -24,6 +24,9 @@ header a{
     border-radius: 2em;
     transition: all 300ms ease;
 }
+.MenuHamburguesa{
+    display: none;
+}
 .MenuHamburguesa i{
     margin-top: 1em;
     transform: scale(2.4)
