@@ -16,6 +16,40 @@ header a{
     align-items: center;
     transition: all 300ms;
 }
+.MenuHam{
+    position: absolute;
+    top: 4em;
+    left: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 2em;
+    transition: all 300ms ease;
+}
+.MenuHamburguesa{
+    display: none;
+}
+.MenuHamburguesa i{
+    margin-top: 1em;
+    transform: scale(2.4)
+}
+.Añadire{
+    display: flex;
+    margin-top: 1.4em;
+}
+#MenuH{
+    display: none;
+}
+.MenuHam a{
+    display: none;
+}
+#MenuH:checked~.MenuHam{
+    height: 20em;
+    width: 10em;
+    border: 1px solid black;
+}
+#MenuH:checked~.MenuHam a{
+    display: block;
+}
 .Agg:hover{
     transform: scale(1.1);
 }
@@ -187,7 +221,22 @@ header a{
     height: 2.5em;
 }
 @media screen and (max-width:800px) {
-    #Res{
+    .MenuHamburguesa{
+        display: block;
+    }
+    .Agg a{
+        display: none;
+    }
+    .Refres a{
+        display: none;
+    }
+    .Delete a{
+        display: none;
+    }
+    .Report a{
+        display: none;
+    }
+    .Help a{
         display: none;
     }
     .Inp a{
