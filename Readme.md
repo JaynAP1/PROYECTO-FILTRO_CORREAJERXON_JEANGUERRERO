@@ -38,14 +38,32 @@ Pagina web interactiva maquetada para proyecto Kario que permite la visualizacio
 
 ## Caracteristicas
 
-    -Archivo `Index` contiene la pagina web principal, la base del proyecto ya que contiene el login.
+-Archivo `Index` contiene la pagina web principal, la base del proyecto ya que contiene el login.
 
-    -Archivo `Readme` contiene informacion del proyecto, descripcion, uso y funcionalidades.
+-Archivo `Readme` contiene informacion del proyecto, descripcion, uso y funcionalidades.
 
-    -Carpeta `Css` contiene el diseño de las distintas paginas web que se maquetaron en el proyecto.
+-Carpeta `Css` contiene el diseño de las distintas paginas web que se maquetaron en el proyecto.
 
-    -Archivos `Css` contiene los diseños en codigo de las paginas
-    
-    -Carpeta `Images` contiene las distintas imagenes usadas en todo el proyecto.
+-Archivos `Css` contiene los diseños en codigo de las paginas
 
-    -Carpeta `Paginas` contiene las distintas paginas del proyecto.
+-Carpeta `Images` contiene las distintas imagenes usadas en todo el proyecto.
+
+-Carpeta `Paginas` contiene las distintas paginas del proyecto.
+
+## Diseño
+
+-Se aplico un diseño responsive en el proyecto que permita la correcta visualizacion de la pagina.
+
+-Diseño simple para su correcta legibilidad evitando asi que los usuarios se pierden en el uso de la pagina.
+
+-Uso de imagenes para hacer mas amigable la pagina web y asi mejorar el funcionamiento de la misma.
+
+## Instrucciones
+
+-Descargar o clonar repositorio.
+
+-Abrir el archivo index.html que se encuentra dentro del repositorio.
+
+# Desarrollado por
+
+Proyecto desarrollado por Jean Franco Guerrero Acero y Jerxon Jair Correa Amaris. Estudiantes de Campusland como proyecto filtro y evaluacion de las habilidades en HTML y CSS.
